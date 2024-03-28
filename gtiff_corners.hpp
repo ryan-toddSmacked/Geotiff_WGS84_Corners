@@ -4,13 +4,7 @@
 
 
 #include <string>
-
-struct GCP
-{
-    double x, y;
-    double lon, lat;    // Always in WGS84
-};
-
+#include "gtiff_GCP.hpp"
 
 // Error codes
 enum GTIFF_CORNERS_ERROR
